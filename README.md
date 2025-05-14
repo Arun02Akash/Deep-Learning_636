@@ -33,6 +33,6 @@ We build a three-stage system for each (n, k) setup:
   - Pass through the trained Encoder to get compressed representation.
   - Use Classifier to predict the class.
   - Pass compressed representation through the corresponding class-specific Regressor.
-  - Invert the log2 transformation to recover the final predicted result.
+  - Invert the log2 transformation to recover the final predicted m-height.
 
 🚀 This modular design ensures better specialization for different regions of the target space, leading to more accurate and robust predictions.
