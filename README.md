@@ -1,3 +1,7 @@
+To generate predictions, open the Deep_Learning_Final_Project_3.ipynb notebook located in the DL_Project_Final_3 directory using Google Colab. Then, mount the entire zip file. Once mounted, run the last two cells of the Testing section to perform inference.
+
+Each folder within the project corresponds to a specific (n, k) configuration and contains the associated classifier model, encoder-decoder model, scaler, and regressor models needed for prediction.
+
 📚 Model Architecture Overview
 
 We build a three-stage system for each (n, k) setup:
@@ -32,6 +36,3 @@ We build a three-stage system for each (n, k) setup:
   - Invert the log2 transformation to recover the final predicted result.
 
 🚀 This modular design ensures better specialization for different regions of the target space, leading to more accurate and robust predictions.
-
-To make predictions run the last cell (i.e. Testing) of 'Deep_Learning_Final_Project_3.ipynb' located in the DL_Project_Final_3 file of the zip file in google colab. Upload/mount the entire zip file in google colab.
-
